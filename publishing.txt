@@ -1,0 +1,14 @@
+Steps to write/generate new article:
+
+1. Checkout source branch
+2. Add new article under content/
+3. Run `pelican content`
+4. Examine output with `cd blog; python -m pelican.server`
+
+When happy:
+
+1. Add and commit all changes
+2. Checkout master branch
+3. Checkout blog folder with `git checkout source -- blog`
+4. Add and commit the changes that got checkout out
+5. Push source and master branches
