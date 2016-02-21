@@ -2,8 +2,8 @@ Steps to write/generate new article:
 
 1. Checkout source branch
 2. Add new article under content/
-3. Run `pelican content`
-4. Examine output with `cd blog; python -m pelican.server`
+3. Run `pelican content -o blog`
+4. Examine output with `cd blog; python -m pelican.server` on localhost:8000
 
 When happy:
 
